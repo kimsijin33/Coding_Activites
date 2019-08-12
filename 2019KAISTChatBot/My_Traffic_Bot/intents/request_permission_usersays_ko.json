@@ -1,0 +1,50 @@
+[
+  {
+    "id": "52e89ff9-4a63-4049-8e71-fc420d9b7e69",
+    "data": [
+      {
+        "text": "where am i",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a6a67009-2e8d-4297-b8a3-cd66965c309f",
+    "data": [
+      {
+        "text": "내 위치",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "03334800-de2e-40ca-97b9-4a206df11244",
+    "data": [
+      {
+        "text": "나 어디야?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7952e061-db0e-483f-ae0c-2685affc07ea",
+    "data": [
+      {
+        "text": "내 위치 찾아줘",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

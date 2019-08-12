@@ -1,0 +1,58 @@
+- Web Updates at I/O 2019 => 25개의 관련 세션 -> Youtube 확인 ㄱㄱ
+  - Progressive enhancement 전략 
+    - 콘텐츠는 모두가 접근할 수 있지만, 유저의 환경에 따라서 다른 UX를 제공 ex) gmail
+    - 기술에서도 마찬가지 전략을 취하며, polyflie을 사용하되 지원하지 않는 곳에서 X
+  - Google Web 기술 발표 
+    - Chrome Dev Summit, BlinkOn, Google I/O
+      - 잘 판별하여 사용하자
+  - LightHouse
+    - audit 도구, 우리 웹 사이트를 성능, 접근성 검사, 검색엔진 최적화
+    - SEO 향상, Performance Budget 
+      - 성능 측정을 하지만 느린지 빠른지 가늠X,Best Practice 체크
+        - 성능은 상대적(웹에선 용량이 큰 좌지우지)
+      - 대부분은 우리가 잘못 작성
+  - Portals - Iframe의 확장
+    - 다른 페이지를 내 페이지로 불러오지만, 마치 내 페이지처럼 보여주는 것
+      - Microservices 
+        - 하나가 죽어도 나머지는 잘 되어야 함
+    - 기능으로 도메인, 조직도를 분리 
+    - 완전히 서로 다른 도메인, URL을 유기적으로 결합
+    - ex) 웹에서 카메라, JS API postMessage
+  - Web perception toolkit
+    - 웹에서 카메라 쓸 수 있게 해줌
+    - 현재까지는 QR코드로만 가능했었음
+    - 인식 대상을 미리 정해놓고 인식되면 해당 페이지 노출
+    - 오프라인 - 온라인의 자연스러운 결합 
+      - 단점 : 인식률이 높지 않음
+  - PWA - 구글이 바라보는 기준 ( Chrome 76 - window, Mac, Linux)
+    - 웹을 이용해서 앱을 만드는 시도 - 기본적으로 웹
+    - 데스크탑에는 가능, 모바일은....
+    - TWA(Trusted Web Activity) 
+      - App frame 주어서 안드로이드 play store에 올려주는 용도
+  - Web sharing API 
+    - OS에서 기본 제공 share를 사용하게 함
+  - Proxx - 지뢰찾기
+    - 다양한 기기에서 60FPS 보장하는지 목적
+    - 그래픽을 DOM 제어하면 reflow가 여러번 발생
+      - 애니메이션 격리의 한계
+      - 프레임 드랍에 영향을 줌 -> 모든 그래픽을 canvas
+    - 이벤트 제어는 DOM
+  - Web GPU 
+    - WebGL 다음 단계
+    - WebGL로 동화책을 만들어 올린다가 유행 => ㅎㅎㅎ
+    - 더 나은 3D 그래픽 지원 목적
+    - Tensorflow를 이용한 처리 목적
+  - Google Search - Google bot update 
+    - 구글 봇 catching은 지원 X => 나머지는 다 지원
+    - Google SPA 잘 지원 
+  - Web.dev -> portal
+  - 질문 : portal - 연동까지, 가이드를 보는 게 제일 빠름
+    - iframe - 불러오는 것만, 다른 페이지 간 이동을 자연스럽게
+    - tensorflow.js - 유저 device 내에서 받아와서 쓸 수 있다.
+      - Cpu를 많이 쓰지 않으며 활용 가능 
+      - on-device Machine Learning
+    - portals -> Modern browser에서만 발생 
+      - 같은 도메인에서 쓰는 것을 권장
+      - CORS에서 비교적 자유로움
+      - SSL은 막음 (http <-> https)
+

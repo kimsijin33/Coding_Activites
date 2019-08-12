@@ -1,0 +1,98 @@
+[
+  {
+    "id": "7ce33d5c-338e-4fdd-a762-05f9285c46dc",
+    "data": [
+      {
+        "text": "대구",
+        "alias": "geo-state",
+        "meta": "@sys.geo-state",
+        "userDefined": true
+      },
+      {
+        "text": " 교통 상황 알려줘",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b94f6ff0-c1c4-4f67-8ddb-57a8acb6dc4e",
+    "data": [
+      {
+        "text": "서울",
+        "alias": "geo-state",
+        "meta": "@sys.geo-state",
+        "userDefined": true
+      },
+      {
+        "text": " 교통 상황 알려줘",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a260f419-abda-4d3e-b1b6-42c19c680917",
+    "data": [
+      {
+        "text": "대전",
+        "alias": "geo-state",
+        "meta": "@sys.geo-state",
+        "userDefined": true
+      },
+      {
+        "text": " 교통 상황 알려줘",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c378e137-0eae-4d82-8fdb-c90635a58517",
+    "data": [
+      {
+        "text": "거리 영상",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "ac5a8de4-e509-45ea-9e11-49000ab14e4c",
+    "data": [
+      {
+        "text": "교통 상황",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eb5012b0-b811-425b-9b8c-8b207518518f",
+    "data": [
+      {
+        "text": "현재",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      },
+      {
+        "text": " 교통 상황 알려줘",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
