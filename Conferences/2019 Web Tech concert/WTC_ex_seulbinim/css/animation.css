@@ -1,0 +1,86 @@
+@keyframes fade-in {
+ 0%{
+    opacity: 0;
+ }
+ 100% {
+    opacity: 1;
+ }
+}
+
+@keyframes fade-slide-in-from-top {
+    0% {
+        transform: translateY(-4rem);
+        opacity:0;
+    }   
+    100% {
+        /* transform: translateY(0); */
+        transform: none; /*같은 표현*/
+
+        opacity: 1;
+    }
+}
+
+@keyframes fade-slide-in-from-left {
+    0% {
+        transform: translateX(-4rem);
+        opacity:0;
+    }   
+    100% {
+        /* transform: translateY(0); */
+        transform: none; /*같은 표현*/
+        opacity: 1;
+    }
+}
+
+@keyframes fade-slide-in-from-bottom {
+    0% {
+        transform: translateX(4rem);
+        opacity:0;
+    }   
+    100% {
+        /* transform: translateY(0); */
+        transform: none; /*같은 표현*/
+        opacity: 1;
+    }
+}
+
+
+.app-header {
+    animation-name:fade-slide-in-from-top;
+    animation-duration: 3s;
+}
+
+.brand {
+    animation-name:fade-slide-in-from-left;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+button[title="메뉴 열기"] {
+    animation-name: fade-in;
+    animation-duration: 3s;
+    animation-delay:7s;
+    opacity:0;
+    animation-fill-mode: forwards;
+
+}
+
+.ediya-menu__item {
+    animation: fade-slide-in-from-bottom
+    3s;
+}
+
+.ediya-menu__item:nth-child(1) {
+    /* animation-delay: 2s; */
+    animation-duration: 2s;
+}
+.ediya-menu__item:nth-child(2) {
+    /* animation-delay: 4s; */
+    animation-duration: 4s;
+}
+.ediya-menu__item:nth-child(3) {
+}
+.ediya-menu__item:nth-child(4) {
+}

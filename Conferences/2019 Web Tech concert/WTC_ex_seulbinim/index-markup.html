@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>이디야(Ediya Coffee)</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div role="banner">
+    <h1><a>Ediya Coffee</a></h1>
+    <button aria-label="메뉴 열기" title="메뉴 열기" aria-pressed="false">
+      <span class="ir"></span>
+    </button>
+    <div role="navigation">
+      <h2 class="a11y-hidden">메인 메뉴</h2>
+    </div>
+  </div>
+  <div role="main">
+    <h2 class="a11y-hidden">이디야 음료</h2>
+    <ul>
+      <li>
+        <a href="/" role="button" aria-haspopup="dialog" aria-pressed="false">
+          <figure>
+            <img src="./images/iced-cherry-blossoms-latte.png" alt="">
+            <figcaption>ICE 벚꽃라테</figcaption>  
+          </figure>
+        </a>
+        <div role="dialog" aria-modal="false" aria-labelledby="item1">
+          <h3 id="item1">ICED 벚꽃라떼</h3>
+          <p>음료 설명....</p>
+          <div>
+            <dl>
+              <dt>칼로리</dt>
+              <dd>(1500kcal)</dd>
+              <dt>칼로리</dt>
+              <dd>(1500kcal)</dd>
+              <dt>칼로리</dt>
+              <dd>(1500kcal)</dd>
+              <dt>칼로리</dt>
+              <dd>(1500kcal)</dd>
+              <dt>칼로리</dt>
+              <dd>(1500kcal)</dd>
+              <dt>칼로리</dt>
+              <dd>(1500kcal)</dd>
+              <dt>칼로리</dt>
+              <dd>(1500kcal)</dd>
+            </dl>
+          </div>
+          <button><span aria-hidden="true">X</span></button>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div role="contentinfo">푸터</div>
+</body>
+</html>
