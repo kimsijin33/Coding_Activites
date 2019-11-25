@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;  
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    margin-top: 20px;
+  }
+  
+  header {
+    display: flex;
+    width: 450px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    border: 2px solid seagreen;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .searchInput {
+    margin-top: 30px;
+    width: 450px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 15px;
+    border: 2px solid darkorange;
+  }
+  
+  .searchInput:focus {
+    outline: none;
+  }
+  
+  .recipeList {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    list-style: none;
+    padding: 5px;
+    height: 500px;
+    overflow-y: scroll;
+    border: 2px solid seagreen;
+  }
+  
+  .recipe {
+    display: flex;
+    flex-direction: row;
+    min-height: 300px;
+    width: 100%;
+    border-bottom: 2px solid gold;
+    margin-bottom: 4px;
+  }
+  
+  .recipeColumn {
+    width: 270px;
+    padding-left: 10px;
+  }
+  
+  .recipeInstructions {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+  }
